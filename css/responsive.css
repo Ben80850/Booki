@@ -1,3 +1,4 @@
+/******Desktop********/
 @media screen and (min-width:992px) and (max-width: 1200px){ 
     
         /*Filtre*/
@@ -55,15 +56,20 @@
       .bloc-footer{
         width: 110%;
       }
+
+      .section-footer{
+        left: -20px;
+      }
     }
         
-    
+    /****FORMAT TABLETTE*******/
     @media screen and (max-width: 992px){
       *{
         box-sizing: content-box;
       }
   
-      /*navigation bar*/
+      /*navigation*/
+
       header {
         display: block;
         border-bottom: 3px solid #f2f2f2;
@@ -83,7 +89,9 @@
         padding-bottom: 20px;
         border-top: none;
       }
+
       /* search */
+
       .search-bar input{
         width: 220px;
         font-size: 100%;
@@ -107,7 +115,8 @@
         font-size: 119%;
       }
   
-      /* filters*/
+      /*Filtres*/
+
       .filters-section .filters-icon{
         margin-left: 20px;
       }
@@ -126,13 +135,11 @@
         padding-right: 10px;
       }
   
-      /*********info***********/
       .info-section h2{
         font-size: 95%;
         margin-left: 10px;
       }
   
-      /******* main **********/
       main{
         margin-left: 0;
         flex-direction: column-reverse;
@@ -210,6 +217,7 @@
       }
   
       /*activity-section*/
+
       .activity-section{
         height: 1900px;
         margin-left: 55px;
@@ -245,8 +253,16 @@
         height: auto;
         flex-direction: column;
       }
+
+      .section-footer{
+        left:-20px;
+        top: 350px;
+      }
     }
     
+
+
+    /****FORMAT MOBILE***/
     @media screen and (max-width: 599px){
   
       /* popular */
@@ -311,7 +327,6 @@
         padding: 2%
       }
   
-      /*section 6 activités*/
       .activity-section{
         height: 1300px;
       }
@@ -328,6 +343,7 @@
       }
       .section-footer{
         left: -25px;
+        top:0px;
       }
       
     }
